@@ -8,6 +8,7 @@ var burger = require("../models/burger.js");
 var router = express.Router();
 
 // Routes for our HTTP requests
+// TODO routes
 
 // Export the 'router'
 module.exports = router;
