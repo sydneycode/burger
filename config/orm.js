@@ -23,8 +23,8 @@ var orm = {
         cb(result);
         });
     },
-    updateOne: function() {
-        var queryString = "INSERT INTO ?? (??) VALUES (?)";
+    updateOne: function(table, col, val, condition, cb) {
+        var queryString = "UPDATE ?? SET ?? = ? WHERE " + condition;
         connection.query(queryString, [table, col, val], function(err, result) {
             if (err) {
                 throw err;
