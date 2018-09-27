@@ -1,0 +1,16 @@
+#top, #enter-text, #below-text {
+    text-align: center;
+}
+
+h1 {
+    color: purple;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    font-family: sans-serif;
+}
