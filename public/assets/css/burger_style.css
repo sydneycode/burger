@@ -2,10 +2,6 @@
     text-align: center;
 }
 
-div {
-    /* border: solid red 5px; */
-}
-
 #wrapper {
     margin: auto;
     width: 70%;
@@ -22,10 +18,6 @@ div {
     width: 50%;
     float: right;
     margin: auto;
-}
-
-#bottom {
-
 }
 
 h1 {

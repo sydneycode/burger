@@ -9,12 +9,11 @@ var router = express.Router();
 
 // Routes for our HTTP requests
 // Route for a GET request -- to get info about all the burgers
-router.get("/index", function(req, res) {
+router.get("/", function(req, res) {
     burger.selectAll(function(data) {
         var handlebarsObject = {
             burgers: data
         };
-        console.log(handlebarsObject);
         res.render("index", handlebarsObject);
     });
 });
